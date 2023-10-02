@@ -1,0 +1,73 @@
+.header, .container{
+    display: flex;
+    justify-content: center;
+ }
+
+h1{
+    font-size: 60px;
+    padding: 100px;
+ background: #b44e65;
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: text;
+}
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1498579809087-ef1e558fd1da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size:cover;
+    min-height: 100vh;
+    background-position: center;
+    background-color: #f3cd95;
+}
+.btn{
+    padding: 20px;
+    background-color:#e92027;
+    
+    border: none;
+
+}
+.toDoAdded{
+    background: #92b579;
+    list-style-type: none;
+    height: 30px;
+    width: 25%;
+    text-align: center;
+    color:  #ffff;
+    font-size: 20px;
+    border-bottom: 1px solid #ffff;
+    
+}
+
+.field{
+    padding: 10px;
+    width: 30%;
+    border: none;
+
+}
+.toDoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60px;
+    padding: 10px;
+}
+
+.toDoCompleted{
+background: #aaafaa;
+color:white;
+font-weight: bold;
+text-decoration: line-through;
+transition: all 2s ease;
+}
+
+
+@media all and (max-width: 800px){
+    h1{
+        font-size: 40px;
+    }
+}
+
+@media all and (max-width: 500px){
+    h1{
+        font-size: 20px;
+    }
+}
